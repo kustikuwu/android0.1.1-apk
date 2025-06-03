@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "lib": ["DOM", "ES2020"],
+    "target": "es6",
+    "module": "esnext",
+    "outDir": "www",
+    "rootDir": "src",
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
-  "include": ["capacitor.config.ts"]
+  "include": ["src"]
 }
