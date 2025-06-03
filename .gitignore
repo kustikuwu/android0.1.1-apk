@@ -1,0 +1,7 @@
+node_modules
+android
+ios
+build
+www
+.DS_Store
+*.apk

@@ -1,0 +1,15 @@
+{
+  "name": "room-rescue",
+  "version": "1.0.0",
+  "description": "Room Rescue Game with Capacitor",
+  "scripts": {
+    "build": "echo 'no build needed'",
+    "android": "npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.7.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
